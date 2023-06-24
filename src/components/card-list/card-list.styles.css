@@ -11,7 +11,7 @@
     /* Adjustments for smaller screens */
     .card-list {
       grid-template-columns: 1fr 1fr;
-      width: 90vw;
+      width: 60px;
       grid-gap: 10px;
     }
   }
@@ -20,7 +20,7 @@
     /* Adjustments for even smaller screens */
     .card-list {
       grid-template-columns: 1fr;
-      width: 60vw;
+      width: 60px;
       grid-gap: 10px;
       height: 30%;
      
