@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ZIECOZENO4.github.io/Monsters-rolodex",
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
@@ -15,9 +16,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+       "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
     "start": "react-scripts start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -42,6 +43,7 @@
   },
   "devDependencies": {
     "buffer": "^6.0.3",
+    "gh-pages": "^5.0.0",
     "path-browserify": "^1.0.1",
     "stream-browserify": "^3.0.0",
     "util": "^0.12.5",
